@@ -11,7 +11,7 @@ if (typeof userInput === 'number' && !isNaN(userInput)){
     console.log(`F :${userInput} <-This is not number /is NaN`);
 }
 
-// Solution by Gemini
+// Solution by My Gemini
 // if (typeof userInput === 'number') {
      // กรณีที่ 1: เป็น number ตรงๆ (เช่น 10)
 //     if (isNaN(userInput as number)) {
