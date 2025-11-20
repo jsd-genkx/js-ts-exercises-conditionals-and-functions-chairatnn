@@ -1,7 +1,7 @@
 // TODO-05: Convert this if to switch/case (You can add more options.)
 // TODO BONUS: Use object lookup
 
-const fruit: string = "banana";
+const fruit: string = "BaNaNa";
 
 // if (fruit === "apple") {
 // 	console.log("An apple a day keeps the doctor away.");
@@ -14,7 +14,8 @@ const fruit: string = "banana";
 // }
 
 // My Solution
-switch (fruit) {
+const fruitInput = fruit.toLowerCase(); // แก้ปัญหา case-sensitive
+switch (fruitInput) {
   case "apple":
     console.log("An apple a day keeps the doctor away.");
     break;
